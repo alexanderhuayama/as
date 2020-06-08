@@ -17701,7 +17701,54 @@ Activity: Describe Distribution
 <XPD:REF name="DiagramOwner">HdfG+qJZwUSPOPi7NgtQTAAA</XPD:REF>
 <XPD:OBJ name="DiagramView" type="UMLClassDiagramView" guid="27yHzw9U/kOXgiqBH0QBewAA">
 <XPD:REF name="Diagram">uaLFVn4+cUeNzP2L1L+4JQAA</XPD:REF>
+<XPD:ATTR name="#OwnedViews" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedViews[0]" type="UMLClassView" guid="o9mQ6IDcOUiozTJeD5W9swAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">296</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">128</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">144</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">83</XPD:ATTR>
+<XPD:ATTR name="StereotypeDisplay" type="UMLStereotypeDisplayKind">sdkIcon</XPD:ATTR>
+<XPD:REF name="Model">5QklltTkRUy/9ryNSeonKgAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="VBLHUIIgx0+ZOuYwiOOJAgAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="M8cpPyeGH0qMG1ES2TU1LAAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">CCU-Registrar Encuesta</XPD:ATTR>
 </XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="2KxqBqSYUU64n7O+G48o3gAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="y1/dZ94J5EeeQAcaHXCESAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="AttributeCompartment" type="UMLAttributeCompartmentView" guid="6bt8mAqcu0eyvVFOGhfCRwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">5QklltTkRUy/9ryNSeonKgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OperationCompartment" type="UMLOperationCompartmentView" guid="6/DY8glYUUqZ1HHRZndEfgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">5QklltTkRUy/9ryNSeonKgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="TemplateParameterCompartment" type="UMLTemplateParameterCompartmentView" guid="mFFwJLT4MEGWoejdb8nJQgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:REF name="Model">5QklltTkRUy/9ryNSeonKgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#OwnedElements" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedElements[0]" type="UMLClass" guid="5QklltTkRUy/9ryNSeonKgAA">
+<XPD:ATTR name="Name" type="string">CCU-Registrar Encuesta</XPD:ATTR>
+<XPD:ATTR name="StereotypeProfile" type="string">UMLStandard</XPD:ATTR>
+<XPD:ATTR name="StereotypeName" type="string">control</XPD:ATTR>
+<XPD:REF name="Namespace">HdfG+qJZwUSPOPi7NgtQTAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:REF name="Views[0]">o9mQ6IDcOUiozTJeD5W9swAA</XPD:REF>
+<XPD:REF name="Views[1]">6bt8mAqcu0eyvVFOGhfCRwAA</XPD:REF>
+<XPD:REF name="Views[2]">6/DY8glYUUqZ1HHRZndEfgAA</XPD:REF>
+<XPD:REF name="Views[3]">mFFwJLT4MEGWoejdb8nJQgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[2]" type="UMLPackage" guid="cVg4eZiyVUOEYM4/vqJF2gAA">
