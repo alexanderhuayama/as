@@ -19668,7 +19668,7 @@ Activity: Describe Distribution
 <XPD:OBJ name="OwnedCollaborationInstanceSets[0]" type="UMLCollaborationInstanceSet" guid="sbN229w5NkCSGj4ziNbmSwAA">
 <XPD:ATTR name="Name" type="string">RI-Registrar Encuesta</XPD:ATTR>
 <XPD:REF name="RepresentedClassifier">vgh5EQgXuEqwaedEpJY2ZAAA</XPD:REF>
-<XPD:ATTR name="#InteractionInstanceSets" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="#InteractionInstanceSets" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="InteractionInstanceSets[0]" type="UMLInteractionInstanceSet" guid="211X7nFcrky+hw7Zpd5jqAAA">
 <XPD:ATTR name="Name" type="string">DI-00-Resumen</XPD:ATTR>
 <XPD:REF name="Context">sbN229w5NkCSGj4ziNbmSwAA</XPD:REF>
@@ -20033,7 +20033,7 @@ T: Al mostrar la pregunta ingresada en la tabla de preguntas
 <XPD:ATTR name="FontSize" type="integer">16</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">7 : Registrar encuesta()</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">7 : Cancelar encuesta()</XPD:ATTR>
 <XPD:REF name="Model">lw1dHGs1m0CNOQMrTRXQKAAA</XPD:REF>
 <XPD:REF name="HostEdge">8QQbTYQS902/IG30IshCVQAA</XPD:REF>
 </XPD:OBJ>
@@ -20083,7 +20083,7 @@ T: Al hacer editable el campo pregunta en la tabla de preguntas
 <XPD:ATTR name="FontSize" type="integer">16</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">8 : Cancelar encuesta()</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">8 : Terminar registro de encuesta()</XPD:ATTR>
 <XPD:REF name="Model">KCnrL9aQ00C/ouVCRkOWDAAA</XPD:REF>
 <XPD:REF name="HostEdge">GxitRAT+j0CgP87jVIpaNwAA</XPD:REF>
 </XPD:OBJ>
@@ -20136,11 +20136,11 @@ T: Al remover la pregunta seleccionada de la lista de preguntas
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="FontSize" type="integer">16</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">728</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">748</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">716</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">832</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">1110</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">62</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">I: En el registro de encuesta
+<XPD:ATTR name="Text" type="string">I: En la edición de encuesta
 T: Al grabar la encuesta en el sistema y al restablecer los campos del registro de encuesta a sus valores por defecto
 </XPD:ATTR>
 </XPD:OBJ>
@@ -20149,30 +20149,14 @@ T: Al grabar la encuesta en el sistema y al restablecer los campos del registro 
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="FontSize" type="integer">16</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">728</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">816</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">748</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">766</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">62</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">I: En el registro de encuesta
+<XPD:ATTR name="Text" type="string">I: En la edición de encuesta
 T: Al restrablecer los campos del registro de encuesta a sus valores por defecto
 </XPD:ATTR>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[21]" type="UMLNoteLinkView" guid="Kd5hmKU2Kky0FpnUdTrgggAA">
-<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
-<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="FontSize" type="integer">16</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">728,846;656,846</XPD:ATTR>
-<XPD:REF name="Head">sgQGJycFp0ypaRPFwpgfSAAA</XPD:REF>
-<XPD:REF name="Tail">jnO8/vpPsUOQ6mDycb2sgwAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="OwnedViews[22]" type="UMLNoteLinkView" guid="SrpS/t0YGU2edIGz5PFW2wAA">
-<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
-<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="FontSize" type="integer">16</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">728,778;656,778</XPD:ATTR>
-<XPD:REF name="Head">kgubeehIK0Ohrq4jejN4ZAAA</XPD:REF>
-<XPD:REF name="Tail">giUWWTqq6EOyYF8o3I0w9wAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="OwnedViews[23]" type="UMLNoteLinkView" guid="rwmUNUTUSkKQr83eXHfA3wAA">
+<XPD:OBJ name="OwnedViews[21]" type="UMLNoteLinkView" guid="rwmUNUTUSkKQr83eXHfA3wAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="FontSize" type="integer">16</XPD:ATTR>
@@ -20180,7 +20164,7 @@ T: Al restrablecer los campos del registro de encuesta a sus valores por defecto
 <XPD:REF name="Head">KrZ2KyY/wEyIibQIbyNsOwAA</XPD:REF>
 <XPD:REF name="Tail">hWSQzJqMbk2AyCxo+i+aAwAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[24]" type="UMLNoteLinkView" guid="AIoWN5V7ykOoimzp9V95tgAA">
+<XPD:OBJ name="OwnedViews[22]" type="UMLNoteLinkView" guid="AIoWN5V7ykOoimzp9V95tgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="FontSize" type="integer">16</XPD:ATTR>
@@ -20188,13 +20172,29 @@ T: Al restrablecer los campos del registro de encuesta a sus valores por defecto
 <XPD:REF name="Head">lCHH1OKAZ0GWAd4YIlG35wAA</XPD:REF>
 <XPD:REF name="Tail">gIMZ4ncjrEux9spIP8HaaQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[25]" type="UMLNoteLinkView" guid="Az9423h7m06wIiz4I8LVNAAA">
+<XPD:OBJ name="OwnedViews[23]" type="UMLNoteLinkView" guid="Az9423h7m06wIiz4I8LVNAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="FontSize" type="integer">16</XPD:ATTR>
 <XPD:ATTR name="Points" type="Points">728,561;656,562</XPD:ATTR>
 <XPD:REF name="Head">55K7K9SvjUGVjoXB+syJkwAA</XPD:REF>
 <XPD:REF name="Tail">U/yNMhTOdEOlj717zzZlxQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[24]" type="UMLNoteLinkView" guid="2jeqNOouJ020dRJ0ycX3ngAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="FontSize" type="integer">12</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">728,778;656,778</XPD:ATTR>
+<XPD:REF name="Head">kgubeehIK0Ohrq4jejN4ZAAA</XPD:REF>
+<XPD:REF name="Tail">jnO8/vpPsUOQ6mDycb2sgwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[25]" type="UMLNoteLinkView" guid="BLQSPrl/5Eyt+SW3zUizTgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="FontSize" type="integer">12</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">716,848;656,846</XPD:ATTR>
+<XPD:REF name="Head">sgQGJycFp0ypaRPFwpgfSAAA</XPD:REF>
+<XPD:REF name="Tail">giUWWTqq6EOyYF8o3I0w9wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -20284,7 +20284,7 @@ T: Al restrablecer los campos del registro de encuesta a sus valores por defecto
 <XPD:REF name="Views[3]">CgbdKU9DQUijgRDG/IaLrwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[6]" type="UMLStimulus" guid="lw1dHGs1m0CNOQMrTRXQKAAA">
-<XPD:ATTR name="Name" type="string">Registrar encuesta</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Cancelar encuesta</XPD:ATTR>
 <XPD:REF name="Sender">9VK5FUyOhk+f9xSUB53XfgAA</XPD:REF>
 <XPD:REF name="Receiver">3P9Q2MI3u0+pzrrbyHHXyAAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLCallAction" guid="/9pEpnakdki+6l30B+QgHwAA">
@@ -20298,7 +20298,7 @@ T: Al restrablecer los campos del registro de encuesta a sus valores por defecto
 <XPD:REF name="Views[3]">EAfv8QAttE6Z9/nU+Zi7HQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[7]" type="UMLStimulus" guid="KCnrL9aQ00C/ouVCRkOWDAAA">
-<XPD:ATTR name="Name" type="string">Cancelar encuesta</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Terminar registro de encuesta</XPD:ATTR>
 <XPD:REF name="Sender">9VK5FUyOhk+f9xSUB53XfgAA</XPD:REF>
 <XPD:REF name="Receiver">3P9Q2MI3u0+pzrrbyHHXyAAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLCallAction" guid="JPiC7D9mxU2dGHpLRDq9eAAA">
@@ -20310,6 +20310,19 @@ T: Al restrablecer los campos del registro de encuesta a sus valores por defecto
 <XPD:REF name="Views[1]">P4JRf4U4Tk+TWTepK3sklAAA</XPD:REF>
 <XPD:REF name="Views[2]">LJbJi1KuIEi+Nl4msPFlUgAA</XPD:REF>
 <XPD:REF name="Views[3]">OO15Wrg6NEOdgsUIAZkL3gAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="InteractionInstanceSets[1]" type="UMLInteractionInstanceSet" guid="PPD2bURm+EGOTffl97pUPAAA">
+<XPD:ATTR name="Name" type="string">DI-02-Buscar capacitaciones</XPD:ATTR>
+<XPD:REF name="Context">sbN229w5NkCSGj4ziNbmSwAA</XPD:REF>
+<XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedDiagrams[0]" type="UMLSequenceDiagram" guid="qVtdHYDUNU2PmMu9TPd/yQAA">
+<XPD:ATTR name="Name" type="string">SequenceDiagram1</XPD:ATTR>
+<XPD:ATTR name="MessageSignature" type="UMLMessageSignatureKind">mskNameOnly</XPD:ATTR>
+<XPD:REF name="DiagramOwner">PPD2bURm+EGOTffl97pUPAAA</XPD:REF>
+<XPD:OBJ name="DiagramView" type="UMLSequenceDiagramView" guid="Cf9efSKFP0SbpXu1CIxPhQAA">
+<XPD:REF name="Diagram">qVtdHYDUNU2PmMu9TPd/yQAA</XPD:REF>
+</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#ParticipatingInstances" type="integer">2</XPD:ATTR>
